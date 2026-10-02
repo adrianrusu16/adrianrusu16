@@ -2,109 +2,87 @@
 
 <img src="assets/ar-mark.svg" width="84" alt="Adrian Rusu mark" />
 
-# Hi, I'm Adrian 👋
+# Adrian-Leontin Rusu
 
-### Senior Android / AAOS Engineer
+### Senior Android / Android Automotive (AAOS) Engineer
 
-**🚗 Automotive media · ⚡ Android performance · ⚙️ Systems engineering**
+**Automotive media & HMI · Android performance · Platform & systems engineering**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-adrianrusu.dev-BA5C73?style=for-the-badge&logo=googlechrome&logoColor=white)](https://adrianrusu.dev)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Adrian_Rusu-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adrian-leontin-rusu/)
-[![Email](https://img.shields.io/badge/Email-Say_Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adrianrusu016@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Adrian--Leontin_Rusu-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adrian-leontin-rusu/)
+[![Email](https://img.shields.io/badge/Email-hello%40adrianrusu.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hello@adrianrusu.dev)
 
 </div>
 
 ---
 
-## 🚗 What I do
+## About
 
-I build **media experiences for cars**.
+I build **Android Automotive media experiences**.
 
-My production work is centered on **Android Automotive OS**, media/HMI engineering, platform behavior, performance investigation and feature ownership. I enjoy the point where a polished interface stops being "just UI" and starts depending on lifecycle, process boundaries, playback state, focus, OEM integration and system behavior.
+My production work is focused on Android Automotive OS (AAOS), media/HMI engineering, platform behavior, performance investigation and feature ownership. I work across the Android media stack and automotive interaction, including MediaSession, MediaBrowser, audio focus, rotary and DPAD navigation, steering-wheel controls, UX restrictions, RRO and OEM-specific behavior.
 
-Outside production work, I use my personal projects to go further down the stack.
+I also spend a lot of time investigating what happens below the UI: process boundaries, Binder/IPC, rendering and jank, memory behavior, startup, native integration and system-level constraints.
 
-> **Android at the surface. Systems at the core.**
+Outside production work, I use public personal projects to explore those areas further through Android, Rust, C++ and backend systems.
 
----
-
-## 🧭 Right now
-
-| | |
-|---|---|
-| 🔭 **Building** | **PandaWave**, an AAOS media platform with Kotlin, Media3, Binder/AIDL and a Rust client-domain engine |
-| 🦀 **Exploring** | Rust across native client logic and backend systems |
-| 🧠 **Going deeper** | AOSP, Binder/IPC, performance and platform engineering |
-| 🧰 **Sharpening** | Modern C++: lifetime, RAII, allocators, templates and custom containers |
-| 🤖 **Using AI for** | Repository exploration, implementation support, debugging and review with Claude Code and Codex |
+> **Android at the surface. Systems underneath.**
 
 ---
 
-## 🧩 Featured work
+## Featured engineering work
 
-| Project | What it explores | |
+| Project | Focus | Case study |
 |---|---|---|
-| **🐼 [PandaWave](https://github.com/adrianrusu16/PandaWave)** | Android Automotive media platform · Compose · Media3 · Binder/AIDL · JNI/FFI · Rust | [Case study ↗](https://adrianrusu.dev/projects/pandawave/) |
-| **🌲 [Canopy](https://github.com/adrianrusu16/Canopy)** | Rust/Tonic media control plane · PostgreSQL · playback authorization · Nginx delivery | [Case study ↗](https://adrianrusu.dev/projects/canopy/) |
-| **🔌 [canopy-api](https://github.com/adrianrusu16/canopy-api)** | Versioned Protobuf/gRPC contract · Buf · compatibility discipline | [Case study ↗](https://adrianrusu.dev/projects/canopy-api/) |
-| **🧱 [C++ Mastery](https://github.com/adrianrusu16/cpp-mastery)** | Object lifetime · RAII · allocators · templates · custom containers · sanitizers | [Case study ↗](https://adrianrusu.dev/projects/cpp-mastery/) |
-| **🌐 [Engineering Portfolio](https://github.com/adrianrusu16/adrian-rusu-portfolio)** | Astro/TypeScript portfolio · technical case studies · SEO/AEO · performance | [Live site ↗](https://adrianrusu.dev) |
+| **[PandaWave](https://github.com/adrianrusu16/PandaWave)** | Android Automotive media platform · Compose · Media3 · Binder/AIDL · JNI/FFI · Rust | [adrianrusu.dev/projects/pandawave](https://adrianrusu.dev/projects/pandawave/) |
+| **[Canopy](https://github.com/adrianrusu16/Canopy)** | Rust/Tonic media control plane · PostgreSQL · playback authorization · Nginx delivery | [adrianrusu.dev/projects/canopy](https://adrianrusu.dev/projects/canopy/) |
+| **[canopy-api](https://github.com/adrianrusu16/canopy-api)** | Versioned Protobuf/gRPC contract · Buf · compatibility discipline | [adrianrusu.dev/projects/canopy-api](https://adrianrusu.dev/projects/canopy-api/) |
+| **[C++ Mastery](https://github.com/adrianrusu16/cpp-mastery)** | Object lifetime · RAII · allocators · templates · custom containers · sanitizers | [adrianrusu.dev/projects/cpp-mastery](https://adrianrusu.dev/projects/cpp-mastery/) |
+| **[Engineering Portfolio](https://github.com/adrianrusu16/adrian-rusu-portfolio)** | Astro/TypeScript · technical case studies · structured data · SEO/AEO · testing | [adrianrusu.dev](https://adrianrusu.dev) |
 
 ---
 
-## 🛠️ Stack & focus
+## Current focus
 
-<div align="center">
-
-![Android Automotive](https://img.shields.io/badge/Android_Automotive-AAOS-3DDC84?style=flat-square&logo=android&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-Android-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
-![Java](https://img.shields.io/badge/Java-Android-ED8B00?style=flat-square)
-![Media3](https://img.shields.io/badge/Media3-MediaSession-4285F4?style=flat-square)
-![Rust](https://img.shields.io/badge/Rust-Systems-000000?style=flat-square&logo=rust&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-Modern-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![gRPC](https://img.shields.io/badge/gRPC-Protobuf-244C5A?style=flat-square)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Backend-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Perfetto](https://img.shields.io/badge/Perfetto-Performance-34A853?style=flat-square)
-
-</div>
-
-**Automotive:** AAOS · HMI · Media3 · MediaSession · audio focus · rotary/focus navigation · RRO  
-**Android:** Kotlin · Java · Compose · Binder/AIDL · Services · Dagger/Hilt · RxJava  
-**Performance:** Perfetto · ATrace · Android Studio Profiler · adb/logcat · ANR analysis · LeakCanary  
-**Systems:** JNI/FFI · Rust · gRPC · Protobuf · PostgreSQL · C/C++ · CMake
+- **Android Automotive / AAOS:** media, HMI behavior, UX restrictions, rotary/focus navigation and platform integration
+- **Performance:** Perfetto, ATrace, Android Studio Profiler, ANRs, rendering/jank, startup and memory
+- **Platform:** Binder/AIDL, services, IPC and deeper AOSP exploration
+- **Systems:** JNI/FFI, Rust and modern C++
+- **AI-assisted engineering:** Claude Code and Codex for repository exploration, implementation support, debugging and review
 
 ---
 
-## 🔬 How I like to engineer
+## Technical stack
 
-- Make ownership and boundaries explicit.
-- Follow performance evidence instead of guessing.
-- Keep platform behavior part of the product design.
-- Use AI as an engineering tool, not as a substitute for understanding the code.
-- Prefer reproducible evidence over impressive-sounding claims.
+**Android & Automotive**  
+Kotlin · Java · Android SDK · AAOS · Media3 · MediaSession · MediaBrowser · Binder/AIDL · Services · RRO
 
-<details>
-<summary><strong>More about the engineering behind the projects</strong></summary>
-<br />
+**UI & architecture**  
+Compose · XML · Custom Views · RecyclerView · RxJava · Dagger/Hilt · Gradle
 
-**PandaWave** separates Android platform concerns from a Rust client-domain engine through Binder/AIDL and JNI/FFI.
+**Performance & diagnostics**  
+Perfetto · ATrace · Android Studio Profiler · adb/logcat · ANR analysis · LeakCanary
 
-**Canopy** keeps control decisions in gRPC while Nginx handles the actual media byte path.
+**Systems & backend**  
+Rust · C++ · C · JNI/FFI · gRPC · Protobuf · PostgreSQL · SQLx · Nginx · CMake
 
-**canopy-api** gives those independently developed systems one explicit, versioned contract.
-
-**C++ Mastery** is where I deliberately practice the lower-level mechanics behind ownership, lifetime and generic containers.
-
-</details>
+**Engineering workflow**  
+Git · GitHub · CI/CD · Jenkins · testing · PR review · Claude Code · Codex
 
 ---
 
-## 📬 Find me
+## What I'm working toward
 
-- 🌐 **Portfolio:** [adrianrusu.dev](https://adrianrusu.dev)
-- 💼 **LinkedIn:** [linkedin.com/in/adrian-leontin-rusu](https://www.linkedin.com/in/adrian-leontin-rusu/)
-- ✉️ **Email:** [adrianrusu016@gmail.com](mailto:adrianrusu016@gmail.com)
+I'm moving deeper into **Android Automotive platform engineering and systems engineering** while continuing to build production Android expertise.
 
-<div align="center">
-  <sub>Cluj-Napoca, Romania · Android Automotive · Media · Systems</sub>
-</div>
+My current learning work is centered on AOSP/AAOS internals, modern C++ and the boundaries between Android platform code, native components and backend systems.
+
+---
+
+## Connect
+
+- **Portfolio:** [adrianrusu.dev](https://adrianrusu.dev)
+- **LinkedIn:** [linkedin.com/in/adrian-leontin-rusu](https://www.linkedin.com/in/adrian-leontin-rusu/)
+- **Email:** [hello@adrianrusu.dev](mailto:hello@adrianrusu.dev)
+
+Cluj-Napoca, Romania
