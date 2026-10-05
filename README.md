@@ -1,88 +1,231 @@
 <div align="center">
 
-<img src="assets/ar-mark.svg" width="84" alt="Adrian Rusu mark" />
+<img src="assets/ar-mark.svg" width="88" alt="Adrian Rusu mark" />
 
-# Adrian-Leontin Rusu
+# 👋 Adrian-Leontin Rusu
 
 ### Senior Android / Android Automotive (AAOS) Engineer
 
-**Automotive media & HMI · Android performance · Platform & systems engineering**
+**🚘 Automotive media & HMI · ⚡ Android performance · ⚙️ Platform & systems engineering**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-adrianrusu.dev-BA5C73?style=for-the-badge&logo=googlechrome&logoColor=white)](https://adrianrusu.dev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Adrian--Leontin_Rusu-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adrian-leontin-rusu/)
 [![Email](https://img.shields.io/badge/Email-hello%40adrianrusu.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hello@adrianrusu.dev)
 
+<br/>
+
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=kotlin,java,androidstudio,gradle,rust,cpp,c,git,github,linux,postgres,nginx,jenkins,githubactions&perline=14" alt="Engineering toolkit" />
+</a>
+
+> **Android at the surface. Systems underneath.**
+
 </div>
 
 ---
 
-## About
+## 🧭 Engineering snapshot
 
-I build **Android Automotive media experiences**.
-
-My production work is focused on Android Automotive OS (AAOS), media/HMI engineering, platform behavior, performance investigation and feature ownership. I work across the Android media stack and automotive interaction, including MediaSession, MediaBrowser, audio focus, rotary and DPAD navigation, steering-wheel controls, UX restrictions, RRO and OEM-specific behavior.
-
-I also spend a lot of time investigating what happens below the UI: process boundaries, Binder/IPC, rendering and jank, memory behavior, startup, native integration and system-level constraints.
-
-Outside production work, I use public personal projects to explore those areas further through Android, Rust, C++ and backend systems.
-
-> **Android at the surface. Systems underneath.**
-
----
-
-## Featured engineering work
-
-| Project | Focus | Case study |
+| 🚘 Production | 🔬 Under the UI | 🧪 Expanding into |
 |---|---|---|
-| **[PandaWave](https://github.com/adrianrusu16/PandaWave)** | Android Automotive media platform · Compose · Media3 · Binder/AIDL · JNI/FFI · Rust | [adrianrusu.dev/projects/pandawave](https://adrianrusu.dev/projects/pandawave/) |
-| **[Canopy](https://github.com/adrianrusu16/Canopy)** | Rust/Tonic media control plane · PostgreSQL · playback authorization · Nginx delivery | [adrianrusu.dev/projects/canopy](https://adrianrusu.dev/projects/canopy/) |
-| **[canopy-api](https://github.com/adrianrusu16/canopy-api)** | Versioned Protobuf/gRPC contract · Buf · compatibility discipline | [adrianrusu.dev/projects/canopy-api](https://adrianrusu.dev/projects/canopy-api/) |
-| **[C++ Mastery](https://github.com/adrianrusu16/cpp-mastery)** | Object lifetime · RAII · allocators · templates · custom containers · sanitizers | [adrianrusu.dev/projects/cpp-mastery](https://adrianrusu.dev/projects/cpp-mastery/) |
-| **[Engineering Portfolio](https://github.com/adrianrusu16/adrian-rusu-portfolio)** | Astro/TypeScript · technical case studies · structured data · SEO/AEO · testing | [adrianrusu.dev](https://adrianrusu.dev) |
+| Android Automotive / AAOS | Binder / AIDL / IPC | AOSP / AAOS internals |
+| Media & HMI | Rendering, jank & startup | Modern C++ |
+| Rotary / DPAD / SWC | Memory & ANR analysis | Rust |
+| OEM integration / RRO | JNI / FFI | Linux systems engineering |
+
+I build **Android Automotive media experiences** and spend a lot of time investigating the behavior beneath the UI: process boundaries, rendering, startup, memory, IPC, native integration and platform constraints.
 
 ---
 
-## Current focus
+## 🏗️ How the pieces connect
 
-- **Android Automotive / AAOS:** media, HMI behavior, UX restrictions, rotary/focus navigation and platform integration
-- **Performance:** Perfetto, ATrace, Android Studio Profiler, ANRs, rendering/jank, startup and memory
-- **Platform:** Binder/AIDL, services, IPC and deeper AOSP exploration
-- **Systems:** JNI/FFI, Rust and modern C++
-- **AI-assisted engineering:** Claude Code and Codex for repository exploration, implementation support, debugging and review
+```mermaid
+flowchart LR
+    A["🚘 AAOS / Android"] --> B["🎵 Media & HMI"]
+    A --> C["🧭 Rotary · DPAD · SWC"]
+    A --> D["⚙️ Platform integration"]
 
----
+    B --> E["🔍 Performance"]
+    C --> E
+    D --> F["🔗 Binder / AIDL / IPC"]
 
-## Technical stack
+    E --> G["🦀 Rust"]
+    F --> H["⚙️ C++ / JNI / FFI"]
 
-**Android & Automotive**  
-Kotlin · Java · Android SDK · AAOS · Media3 · MediaSession · MediaBrowser · Binder/AIDL · Services · RRO
-
-**UI & architecture**  
-Compose · XML · Custom Views · RecyclerView · RxJava · Dagger/Hilt · Gradle
-
-**Performance & diagnostics**  
-Perfetto · ATrace · Android Studio Profiler · adb/logcat · ANR analysis · LeakCanary
-
-**Systems & backend**  
-Rust · C++ · C · JNI/FFI · gRPC · Protobuf · PostgreSQL · SQLx · Nginx · CMake
-
-**Engineering workflow**  
-Git · GitHub · CI/CD · Jenkins · testing · PR review · Claude Code · Codex
+    G --> I["🧪 Systems engineering"]
+    H --> I
+    I --> J["📱 AOSP / AAOS internals"]
+```
 
 ---
 
-## What I'm working toward
+## 🚀 Featured engineering work
+
+| | Project | Engineering focus | Deep dive |
+|:---:|---|---|---|
+| 🐼 | **[PandaWave](https://github.com/adrianrusu16/PandaWave)** | Android Automotive media platform · Compose · Media3 · Binder/AIDL · JNI/FFI · Rust | [Case study](https://adrianrusu.dev/projects/pandawave/) |
+| 🌲 | **[Canopy](https://github.com/adrianrusu16/Canopy)** | Rust/Tonic media control plane · PostgreSQL · playback authorization · Nginx delivery | [Case study](https://adrianrusu.dev/projects/canopy/) |
+| 📡 | **[canopy-api](https://github.com/adrianrusu16/canopy-api)** | Versioned Protobuf/gRPC contract · Buf · compatibility discipline | [Case study](https://adrianrusu.dev/projects/canopy-api/) |
+| ⚙️ | **[C++ Mastery](https://github.com/adrianrusu16/cpp-mastery)** | Object lifetime · RAII · allocators · templates · custom containers · sanitizers | [Case study](https://adrianrusu.dev/projects/cpp-mastery/) |
+| 🌐 | **[Engineering Portfolio](https://github.com/adrianrusu16/adrian-rusu-portfolio)** | Astro/TypeScript · technical case studies · structured data · SEO/AEO · testing | [adrianrusu.dev](https://adrianrusu.dev) |
+| 🐧 | **[Panda Workstation](https://github.com/adrianrusu16/panda-workstation)** | Reproducible CachyOS workstation · Fish · chezmoi · Linux tooling · machine profiles | [Repository](https://github.com/adrianrusu16/panda-workstation) |
+
+---
+
+## 🎯 Current focus
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🚘 Android Automotive
+
+- AAOS media & HMI behavior
+- MediaSession / MediaBrowser / Media3
+- Rotary, focus & steering-wheel controls
+- UX restrictions & OEM-specific behavior
+- RRO and platform integration
+
+</td>
+<td width="50%" valign="top">
+
+### ⚡ Performance & diagnostics
+
+- Perfetto & ATrace
+- Android Studio Profiler
+- ANR analysis
+- Rendering & jank
+- Startup & memory behavior
+- adb / logcat / LeakCanary
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ⚙️ Platform & systems
+
+- Binder / AIDL / services / IPC
+- AOSP exploration
+- JNI / FFI
+- Modern C++
+- Rust
+
+</td>
+<td width="50%" valign="top">
+
+### 🤖 AI-assisted engineering
+
+- Claude Code
+- Codex
+- Repository exploration
+- Implementation support
+- Debugging & review workflows
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🧰 Technical toolbox
+
+<details open>
+<summary><b>📱 Android & Automotive</b></summary>
+<br/>
+
+Kotlin · Java · Android SDK · AAOS · Media3 · MediaSession · MediaBrowser · Binder/AIDL · Services · RRO · Compose · XML · Custom Views · RecyclerView · RxJava · Dagger/Hilt · Gradle
+
+</details>
+
+<details>
+<summary><b>⚙️ Systems & backend</b></summary>
+<br/>
+
+Rust · C++ · C · JNI/FFI · gRPC · Protobuf · PostgreSQL · SQLx · Nginx · CMake · Linux
+
+</details>
+
+<details>
+<summary><b>🛠️ Engineering workflow</b></summary>
+<br/>
+
+Git · GitHub · GitHub Actions · Jenkins · testing · PR review · Claude Code · Codex
+
+</details>
+
+---
+
+## 🧪 Current systems lab
+
+**[Panda Workstation](https://github.com/adrianrusu16/panda-workstation)** is my reproducible Linux workstation project.
+
+```text
+CachyOS
+   │
+   ├── 🐚 Fish
+   ├── 🏠 chezmoi
+   ├── 📦 declarative package layers
+   ├── 💻 machine-specific profiles
+   ├── 🧪 Android / C++ / Rust / AOSP tooling
+   └── 🎮 gaming + desktop configuration
+```
+
+The goal: turn a fresh Linux installation into a documented, reproducible engineering environment instead of rebuilding it from memory.
+
+---
+
+## 📊 GitHub activity
+
+<p align="center">
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D GitHub contribution calendar" />
+</p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/adrianrusu16/adrianrusu16/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/adrianrusu16/adrianrusu16/output/github-contribution-grid-snake.svg" />
+  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/adrianrusu16/adrianrusu16/output/github-contribution-grid-snake.svg" />
+</picture>
+
+---
+
+## 📝 Engineering notes
+
+I publish shorter technical write-ups alongside project case studies.
+
+[![Engineering Notes](https://img.shields.io/badge/Engineering_Notes-Read-111827?style=for-the-badge&logo=markdown&logoColor=white)](https://adrianrusu.dev/notes/)
+
+Topics include Android/AAOS engineering, platform behavior, performance, architecture and systems work.
+
+---
+
+## 🧭 Direction
+
+```text
+Android / AAOS
+      │
+      ▼
+Platform engineering
+      │
+      ├────────► AOSP / AAOS internals
+      │
+      ├────────► C++ / native integration
+      │
+      └────────► Rust / systems engineering
+```
 
 I'm moving deeper into **Android Automotive platform engineering and systems engineering** while continuing to build production Android expertise.
 
-My current learning work is centered on AOSP/AAOS internals, modern C++ and the boundaries between Android platform code, native components and backend systems.
-
 ---
 
-## Connect
+<div align="center">
 
-- **Portfolio:** [adrianrusu.dev](https://adrianrusu.dev)
-- **LinkedIn:** [linkedin.com/in/adrian-leontin-rusu](https://www.linkedin.com/in/adrian-leontin-rusu/)
-- **Email:** [hello@adrianrusu.dev](mailto:hello@adrianrusu.dev)
+## 🤝 Connect
 
-Cluj-Napoca, Romania
+[![Portfolio](https://img.shields.io/badge/Portfolio-adrianrusu.dev-BA5C73?style=for-the-badge&logo=googlechrome&logoColor=white)](https://adrianrusu.dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adrian-leontin-rusu/)
+[![Email](https://img.shields.io/badge/Email-Say_Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hello@adrianrusu.dev)
+
+📍 Cluj-Napoca, Romania
+
+</div>
