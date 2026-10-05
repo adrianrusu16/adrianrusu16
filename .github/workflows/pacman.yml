@@ -1,8 +1,8 @@
-name: 🐍 Generate contribution snake
+name: 👻 Generate Pac-Man contribution graph
 
 on:
   schedule:
-    - cron: "15 2 * * *"
+    - cron: "0 3 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -14,18 +14,17 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 20
 
     steps:
-      - name: 🐍 Generate light and dark contribution snakes
-        uses: Platane/snk/svg-only@v3
+      - name: 👻 Generate Pac-Man contribution graph
+        uses: abozanona/pacman-contribution-graph@v5.0.0
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          games: pacman
+          hide_month_labels: "false"
 
-      - name: 🚀 Publish animation to output branch
+      - name: 🚀 Publish Pac-Man animation
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
